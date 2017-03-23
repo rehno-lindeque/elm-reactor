@@ -85,7 +85,7 @@ makeElmHtml filePath =
       [ "while (document.body.firstChild) {"
       , "    document.body.removeChild(document.body.firstChild);"
       , "}"
-      , "runElmProgram();"
+      , "var elmProgram = runElmProgram();"
       ]
 
 
